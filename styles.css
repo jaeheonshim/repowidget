@@ -1,0 +1,50 @@
+#github-repo-card {
+    border: 1px solid #bababa;
+    font-size: 1.4em;
+    font-family: 'Source Sans Pro';
+    width: 40%;
+}
+
+#github-repo-card .header {
+    background: linear-gradient(180deg, rgba(166,166,166,1) 0%, rgba(200,200,200,1) 100%);
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+#github-repo-card a {
+    color: black;
+    text-decoration: none;
+}
+
+#github-repo-card .project-body {
+    display: flex;
+}
+
+#github-repo-card .project-description {
+    padding: 0.5em;
+}
+
+#github-repo-card .project-body #user-avatar {
+    max-width: 7em;
+}
+
+#github-repo-card .button {
+    background: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    display: inline-block;
+    border-radius: 1em;
+    margin-left: 0.5em;
+}
+
+#github-repo-card .text {
+    padding: 0.1em 0.1em 0.1em 0.5em;
+    display: inline;
+}
+
+#github-repo-card .button .count {
+    display: inline;
+    background-color: white;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.3em;
+}
