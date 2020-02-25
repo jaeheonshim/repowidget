@@ -11,8 +11,10 @@
             <h1>RepoWidget</h1>
             <h2>A HTML widget to showcase your awesome projects</h2>
             <div>
-                <input class="input" type="text" placeholder="username/repository">
-                <button class="button">Get the code!</button>
+                <input class="input" type="text" id="repository-name" placeholder="username/repository">
+                <button id="generate-button" class="button">Get the code!</button>
+                <textarea class="code" style="display: none">
+                </textarea>
             </div>
         </div>
         <div>
@@ -26,4 +28,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
