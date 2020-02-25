@@ -15,7 +15,7 @@ document.getElementById("generate-button").addEventListener('click', () => {
         if(this.readyState = 4 && this.status == 404) {
             codeArea.textContent = "Uh oh! The repository was not found. Are you sure the repository you entered is public?"
         } else if(this.readyState = 4 && this.status == 200) {
-            codeArea.textContent = `<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">\n<link href="widget/styles.css" rel="stylesheet">\n<div id="github-repo-card" repository="${repositoryName.trim()}">\n<script src="widget/script.js"></script>\n</div>`.trim();
+            codeArea.textContent = `<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">\n<link href="https://repowidget.jaeheonshim.dev/widget/styles.css" rel="stylesheet">\n<div class="github-repo-card" repository="${repositoryName.trim()}">\n<script src="https://repowidget.jaeheonshim.dev/widget/script.js"></script>\n</div>`.trim();
             codeArea.select();
         }
     }

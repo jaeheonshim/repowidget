@@ -1,7 +1,5 @@
 const repoCards = document.getElementsByClassName("github-repo-card");
 
-console.log(repoCards);
-
 for(let i = 0; i < repoCards.length; i++) {  
     const http = new XMLHttpRequest();  
     const url = `https://api.github.com/repos/${repoCards[i].getAttribute("repository")}`;
