@@ -94,3 +94,12 @@ h2 {
 .body h1 {
     color: #db504a;
 }
+
+.credit {
+    text-align: center;
+    color: white;
+}
+
+.credit a {
+    color: white;
+}
